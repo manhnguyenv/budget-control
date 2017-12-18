@@ -1,0 +1,57 @@
+﻿@model BC.Repository.Domain.Project
+
+<br />
+<hr />
+<br />
+@if (Model != null)
+{
+    <input type="hidden" id="txtIdProject" value="@Model.Id" />
+    <p><b>Project:</b> @Model.Id - @Model.Description</p>
+    <p><b>Department:</b> @Model.Department.Description</p>
+    <br />
+    if (Model.Requests.Count() > 0)
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Request Id</th>
+                    <th>Supplier</th>
+                    <th>Value</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Requests)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Supplier.Name</td>
+                    <td>@String.Format("{0:C}", item.Value)</td>
+                    <td>@item.RequestDate.ToShortDateString()</td>
+                    <td>@item.RequestStatus</td>
+                    <td>
+                        @if (item.RequestStatus.Equals(BC.Repository.Domain.Status.Draft))
+                        {
+                            <button class="btn btn-info" data-toggle="modal" data-target="#modalRequest" data-mode="Edit" data-id="@item.Id"><span class="glyphicon glyphicon-pencil"></span></button>
+                        }
+                    </td>
+                    <td><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-danger">There is no request in the project</p>
+        <br /><br /><hr /><br />
+    }
+    <button id="btnAddRequest" class="btn btn-info" data-toggle="modal" data-target="#modalRequest" data-mode="Create"><span class="glyphicon glyphicon-plus"></span> Add Request</button>
+}
+else
+{
+    <strong>Project Id doesn't found! Please, try again.</strong>
+}

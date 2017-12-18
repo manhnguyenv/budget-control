@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\BC.Repository.dll.config
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\BC.Repository.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\BC.Repository.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\obj\Debug\BC.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\obj\Debug\BC.Repository.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Repository\obj\Debug\BC.Repository.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\bin\Debug\BC.Repository.dll.config
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\bin\Debug\BC.Repository.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\bin\Debug\BC.Repository.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\obj\Debug\BC.Repository.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\obj\Debug\BC.Repository.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\BudgeControl\BC.Repository\obj\Debug\BC.Repository.csprojResolveAssemblyReference.cache
