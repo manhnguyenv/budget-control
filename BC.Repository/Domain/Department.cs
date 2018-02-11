@@ -14,7 +14,7 @@ namespace BC.Repository.Domain
         }
 
         public string Description { get; set; }
-        public int? IdDepartmentParent { get; set; }
+        public int IdDepartmentParent { get; set; }
 
         public virtual Department DepartmentParent { get; set; }
         public virtual ICollection<Department> Departments { get; set; }

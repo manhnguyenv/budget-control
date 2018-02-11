@@ -1,0 +1,4 @@
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Domain\bin\Debug\BC.Domain.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Domain\bin\Debug\BC.Domain.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Domain\obj\Debug\BC.Domain.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Domain\obj\Debug\BC.Domain.pdb

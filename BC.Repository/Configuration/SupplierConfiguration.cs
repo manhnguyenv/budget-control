@@ -1,6 +1,5 @@
 ﻿using BC.Repository.Domain;
 using System.Data.Entity.ModelConfiguration;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BC.Repository.Configuration
 {
@@ -10,7 +9,7 @@ namespace BC.Repository.Configuration
         {
             ToTable("Supplier");
             HasKey(k => k.Id);
-            Property(p => p.Id).HasColumnName("IdSupplier").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(p => p.Id).HasColumnName("IdSupplier");
             Property(p => p.Name).IsRequired().HasMaxLength(80);
         }
     }

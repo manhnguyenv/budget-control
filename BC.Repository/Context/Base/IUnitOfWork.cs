@@ -11,6 +11,6 @@ namespace BC.Repository.Context
         void Delete(T model);
         IEnumerable<T> GetAll();
         T GetById(object id);
-        IEnumerable<T> Where(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] navigationProperties);
+        IEnumerable<T> Where(Expression<Func<T, bool>> expression, params string[] navigationProperties);
     }
 }

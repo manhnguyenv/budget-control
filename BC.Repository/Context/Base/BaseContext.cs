@@ -15,7 +15,7 @@ namespace BC.Repository.Context
 
         public BaseContext() : base("bd")
         {
-            Database.SetInitializer<BaseContext<T>>(new CreateDatabaseIfNotExists<BaseContext<T>>());
+            Database.SetInitializer<BaseContext<T>>(new DropCreateDatabaseAlways<BaseContext<T>>());
             Configuration.LazyLoadingEnabled = false;
         }
 
@@ -76,17 +76,17 @@ namespace BC.Repository.Context
             return DbSet.Find(id);
         }
 
-        public virtual IEnumerable<T> Where(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] navigationProperties)
+        public virtual IEnumerable<T> Where(Expression<Func<T, bool>> expression, params string[] navigationProperties)
         {
-            return Include(navigationProperties).Where(expression).ToList();
+            return Include(navigationProperties).Where(expression);
         }
 
-        private IQueryable<T> Include(params Expression<Func<T, object>>[] navigationProperties)
+        private IQueryable<T> Include(params string[] navigationProperties)
         {
             var query = DbSet.AsQueryable();
             foreach(var property in navigationProperties)
             {
-                query = query.Include(property);
+                query.Include(property);
             }
             return query;
         }

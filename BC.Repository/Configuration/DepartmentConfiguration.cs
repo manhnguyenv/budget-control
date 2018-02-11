@@ -1,6 +1,5 @@
 ﻿using BC.Repository.Domain;
 using System.Data.Entity.ModelConfiguration;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BC.Repository.Configuration
 {
@@ -10,10 +9,10 @@ namespace BC.Repository.Configuration
         {
             ToTable("Department");
             HasKey(k => k.Id);
-            Property(p => p.Id).HasColumnName("IdDepartment").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(p => p.Id).HasColumnName("IdDepartment");
             Property(p => p.Description).HasMaxLength(80).IsRequired();
             Property(p => p.IdDepartmentParent).IsOptional();
-            HasOptional(f => f.DepartmentParent).WithMany(f => f.Departments).HasForeignKey(f => f.IdDepartmentParent);
+            HasOptional(f => f.DepartmentParent).WithMany().HasForeignKey(f => f.IdDepartmentParent);
         }
     }
 }

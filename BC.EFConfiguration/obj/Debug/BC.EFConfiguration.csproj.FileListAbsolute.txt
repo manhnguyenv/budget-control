@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.EFConfiguration.dll.config
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.EFConfiguration.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.EFConfiguration.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.Contracts.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.Domain.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\EntityFramework.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.Contracts.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.Domain.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\EntityFramework.xml
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\obj\Debug\BC.EFConfiguration.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\obj\Debug\BC.EFConfiguration.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\obj\Debug\BC.EFConfiguration.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.ViewModel.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.EFConfiguration\bin\Debug\BC.ViewModel.pdb

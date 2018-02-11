@@ -49,8 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Business\DepartmentBusiness.cs" />
-    <Compile Include="Business\ProjectBusiness.cs" />
     <Compile Include="Business\RequestBusiness.cs" />
     <Compile Include="Configuration\BudgetConfiguration.cs" />
     <Compile Include="Configuration\DepartmentConfiguration.cs" />

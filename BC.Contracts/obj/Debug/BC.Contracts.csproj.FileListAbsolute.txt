@@ -1,0 +1,9 @@
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.Contracts.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.Contracts.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\obj\Debug\BC.Contracts.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\obj\Debug\BC.Contracts.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.Domain.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.Domain.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\obj\Debug\BC.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.ViewModel.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.Contracts\bin\Debug\BC.ViewModel.pdb

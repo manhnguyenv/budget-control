@@ -1,0 +1,9 @@
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\BC.ViewModel.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\BC.ViewModel.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\BC.Domain.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\BC.Domain.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\obj\Debug\BC.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\obj\Debug\BC.ViewModel.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\obj\Debug\BC.ViewModel.pdb
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rodrigo\Documents\Estudos\SCO\ChartPartialClient\BC.ViewModel\bin\Debug\Newtonsoft.Json.xml

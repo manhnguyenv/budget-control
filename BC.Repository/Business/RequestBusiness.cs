@@ -14,15 +14,9 @@ namespace BC.Repository.Business
             context = unitOfWork;
         }
 
-        public IEnumerable<Request> GetRequestsByIdProject(int idProject)
+        public IEnumerable<Request> GetByIdProject(int idProject)
         {
-            return context.Where(r => r.IdProject.Equals(idProject), n => n.Project, n => n.Supplier);
-        }
-
-        public Request GetRequestById(int? id)
-        {
-            if (id == null) return null;
-            return context.GetById(id);
+            return context.Where(r => r.IdProject.Equals(idProject), "Project", "Supplier");
         }
 
         public int CreateRequest(Request requestToCreate)
@@ -69,5 +63,7 @@ namespace BC.Repository.Business
                     return 0;
             }
         }
+
+
     }
 }

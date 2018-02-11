@@ -1,6 +1,5 @@
 ﻿using BC.Repository.Domain;
 using System.Data.Entity.ModelConfiguration;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BC.Repository.Configuration
 {
@@ -10,7 +9,7 @@ namespace BC.Repository.Configuration
         {
             ToTable("Request");
             HasKey(k => k.Id);
-            Property(p => p.Id).HasColumnName("IdRequest").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(p => p.Id).HasColumnName("IdRequest");
             Property(p => p.IdProject);
             Property(p => p.IdSupplier).IsRequired();
             Property(p => p.RequestDate).IsRequired();

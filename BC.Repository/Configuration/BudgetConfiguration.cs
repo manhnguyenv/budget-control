@@ -8,11 +8,12 @@ namespace BC.Repository.Configuration
         public BudgetConfiguration()
         {
             ToTable("Budget");
-            HasKey(k => new { k.IdDepartment, k.Year });
+            HasKey(k => k.IdDepartment);
+            HasKey(k => k.Year);
             Property(p => p.IdDepartment);
             Property(p => p.Year);
             Property(p => p.Value).IsRequired().HasPrecision(15,2);
-            HasRequired(f => f.Department).WithMany().HasForeignKey(f => f.IdDepartment);
+            HasRequired(f => f.Department);
         }
     }
 }
